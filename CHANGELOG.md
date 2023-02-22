@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# intellij-code-labware Changelog
+# Code Labware Changelog
 
 ## [Unreleased]
 ### Added

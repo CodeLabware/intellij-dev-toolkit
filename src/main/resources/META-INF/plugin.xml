@@ -1,18 +1,11 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.lilittlecat.intellijcodelabware</id>
-    <name>IntelliJ Platform Plugin intellij-code-labware</name>
-    <vendor>lilittlecat</vendor>
+    <name>Code Labware</name>
+    <vendor url="https://github.com/CodeLabware" email="lilittlecat@outlook.com">Code Labware</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.lilittlecat.intellijcodelabware.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.lilittlecat.intellijcodelabware.services.MyProjectService"/>
-    </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.lilittlecat.intellijcodelabware.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+
 </idea-plugin>
