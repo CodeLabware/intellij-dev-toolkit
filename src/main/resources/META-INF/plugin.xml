@@ -7,5 +7,10 @@
     <depends>com.intellij.modules.platform</depends>
 
 
-
+    <actions>
+        <action id="com.codelabware.intellij.action.json.JSONFormatterAction"
+                class="com.codelabware.intellij.action.json.JSONFormatterAction" text="CodeLabware.JSON.JSONFormatter">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
