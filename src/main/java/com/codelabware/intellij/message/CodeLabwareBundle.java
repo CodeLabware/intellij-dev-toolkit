@@ -1,4 +1,4 @@
-package com.codelabware.intellij;
+package com.codelabware.intellij.message;
 
 import com.intellij.DynamicBundle;
 import org.jetbrains.annotations.Nls;
@@ -12,12 +12,12 @@ import java.util.function.Supplier;
  * @author <a href="https://github.com/LiLittleCat">LiLittleCat</a>
  * @since 0.0.1
  */
-public class MyBundle extends DynamicBundle {
+public class CodeLabwareBundle extends DynamicBundle {
     @NonNls
-    private static final String BUNDLE = "messages.MyBundle";
-    private static final MyBundle INSTANCE = new MyBundle();
+    private static final String BUNDLE = "messages.CodeLabwareBundle";
+    private static final CodeLabwareBundle INSTANCE = new CodeLabwareBundle();
 
-    private MyBundle() {
+    private CodeLabwareBundle() {
         super(BUNDLE);
     }
 
