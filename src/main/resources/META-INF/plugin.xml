@@ -15,6 +15,6 @@
     </actions>
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
-                    factoryClass="com.codelabware.intellij.window.CodeLabwareToolWindowFactory"/>
+                    factoryClass="com.codelabware.intellij.ui.window.CodeLabwareToolWindowFactory"/>
     </extensions>
 </idea-plugin>
