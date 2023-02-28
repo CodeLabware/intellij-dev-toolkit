@@ -1,20 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.lilittlecat.intellijcodelabware</id>
+    <id>com.codelabware.intellij</id>
     <name>Code Labware</name>
     <vendor url="https://github.com/CodeLabware" email="lilittlecat@outlook.com">Code Labware</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-
-    <actions>
-        <action id="com.codelabware.intellij.action.json.JSONFormatterAction"
-                class="com.codelabware.intellij.action.json.JSONFormatterAction" text="CodeLabware.JSON.JSONFormatter">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-        </action>
-    </actions>
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
-                    factoryClass="com.codelabware.intellij.ui.window.CodeLabwareToolWindowFactory"/>
+        <toolWindow id="Code Labware" secondary="false" icon="/icons/logo.svg" anchor="right" canCloseContents="true"
+                    factoryClass="com.codelabware.intellij.window.CodeLabwareToolWindowFactory"/>
     </extensions>
 </idea-plugin>
